@@ -1,0 +1,19 @@
+{"id":"PUB-001","category":"clear_intent","user_text":"Create a task called Review renewal terms.","expected_tools":["workspace.task_create"],"expected_mode":"execute","synthetic":true}
+{"id":"PUB-002","category":"clear_intent","user_text":"Find the document named Vendor checklist.","expected_tools":["workspace.document_find"],"expected_mode":"execute","synthetic":true}
+{"id":"PUB-003","category":"clear_intent","user_text":"Mark issue QA-17 resolved.","expected_tools":["workspace.issue_update"],"expected_mode":"execute","synthetic":true}
+{"id":"PUB-004","category":"ambiguity","user_text":"Move the review.","expected_tools":[],"expected_mode":"clarify","synthetic":true}
+{"id":"PUB-005","category":"ambiguity","user_text":"Share it with them.","expected_tools":[],"expected_mode":"clarify","synthetic":true}
+{"id":"PUB-006","category":"ambiguity","user_text":"Use the newer number.","expected_tools":[],"expected_mode":"clarify","synthetic":true}
+{"id":"PUB-007","category":"non_action","user_text":"I am considering a different launch sequence.","expected_tools":["assistant.reply"],"expected_mode":"reason","synthetic":true}
+{"id":"PUB-008","category":"non_action","user_text":"Why do teams use feature flags?","expected_tools":["assistant.reply"],"expected_mode":"reason","synthetic":true}
+{"id":"PUB-009","category":"non_action","user_text":"That meeting was exhausting.","expected_tools":["assistant.reply"],"expected_mode":"reason","synthetic":true}
+{"id":"PUB-010","category":"structured_output","user_text":"Create a weekly task every Monday at 9 AM through September.","expected_tools":["workspace.recurring_task_create"],"expected_mode":"execute","synthetic":true}
+{"id":"PUB-011","category":"structured_output","user_text":"Tag the brief with risk, legal, and launch.","expected_tools":["workspace.document_tag"],"expected_mode":"execute","synthetic":true}
+{"id":"PUB-012","category":"structured_output","user_text":"Find two open 30-minute slots next Tuesday afternoon.","expected_tools":["workspace.availability_find"],"expected_mode":"execute","synthetic":true}
+{"id":"PUB-013","category":"compound","user_text":"Create the launch checklist and add security review to it.","expected_tools":["workspace.list_create","workspace.list_item_add"],"expected_mode":"execute","synthetic":true}
+{"id":"PUB-014","category":"compound","user_text":"Find the partner brief and share it with the review group.","expected_tools":["workspace.document_find","workspace.document_share"],"expected_mode":"execute","synthetic":true}
+{"id":"PUB-015","category":"compound","user_text":"Close issue QA-22 and create a follow-up task for the release owner.","expected_tools":["workspace.issue_update","workspace.task_create"],"expected_mode":"execute","synthetic":true}
+{"id":"PUB-016","category":"robustness","user_text":"mk task revw access logs tomrw","expected_tools":["workspace.task_create"],"expected_mode":"execute","synthetic":true}
+{"id":"PUB-017","category":"robustness","user_text":"fnd vendr cheklst doc pls","expected_tools":["workspace.document_find"],"expected_mode":"execute","synthetic":true}
+{"id":"PUB-018","category":"robustness","user_text":"share tht w the team","expected_tools":[],"expected_mode":"clarify","synthetic":true}
+

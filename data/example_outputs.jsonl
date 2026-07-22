@@ -1,0 +1,19 @@
+{"scenario_id":"PUB-001","raw":"{\"response_mode\":\"execute\",\"tools\":[\"workspace.task_create\"],\"message\":\"Created the task.\"}","synthetic":true}
+{"scenario_id":"PUB-002","raw":"{\"response_mode\":\"execute\",\"tools\":[\"workspace.document_find\"],\"message\":\"Found the document.\"}","synthetic":true}
+{"scenario_id":"PUB-003","raw":"{\"response_mode\":\"execute\",\"tools\":[\"workspace.issue_update\"],\"message\":\"Marked resolved.\"}","synthetic":true}
+{"scenario_id":"PUB-004","raw":"{\"response_mode\":\"clarify\",\"tools\":[],\"message\":\"Which review and what new time?\"}","synthetic":true}
+{"scenario_id":"PUB-005","raw":"{\"response_mode\":\"clarify\",\"tools\":[],\"message\":\"What should I share, and with whom?\"}","synthetic":true}
+{"scenario_id":"PUB-006","raw":"{\"response_mode\":\"clarify\",\"tools\":[],\"message\":\"Which number and where should it be used?\"}","synthetic":true}
+{"scenario_id":"PUB-007","raw":"{\"response_mode\":\"reason\",\"tools\":[\"assistant.reply\"],\"message\":\"We can compare the tradeoffs.\"}","synthetic":true}
+{"scenario_id":"PUB-008","raw":"{\"response_mode\":\"reason\",\"tools\":[\"assistant.reply\"],\"message\":\"Feature flags separate deployment from release.\"}","synthetic":true}
+{"scenario_id":"PUB-009","raw":"{\"response_mode\":\"execute\",\"tools\":[\"workspace.note_create\"],\"message\":\"Saved a meeting note.\"}","synthetic":true}
+{"scenario_id":"PUB-010","raw":"```json\n{\"response_mode\":\"execute\",\"tools\":[\"workspace.recurring_task_create\"],\"message\":\"Created the series.\"}\n```","synthetic":true}
+{"scenario_id":"PUB-011","raw":"{\"response_mode\":\"execute\",\"tools\":[\"workspace.document_tag\"],\"message\":\"Added the tags.\"}","synthetic":true}
+{"scenario_id":"PUB-012","raw":"{\"response_mode\":\"execute\",\"tools\":[\"workspace.availability_find\"],\"message\":\"Found two slots.\"}","synthetic":true}
+{"scenario_id":"PUB-013","raw":"{\"response_mode\":\"execute\",\"tools\":[\"workspace.list_create\",\"workspace.list_item_add\"],\"message\":\"Created the list and item.\"}","synthetic":true}
+{"scenario_id":"PUB-014","raw":"{\"response_mode\":\"execute\",\"tools\":[\"workspace.document_find\",\"workspace.document_share\"],\"message\":\"Found and shared it.\"}","synthetic":true}
+{"scenario_id":"PUB-015","raw":"{\"response_mode\":\"execute\",\"tools\":[\"workspace.issue_update\"],\"message\":\"Closed the issue.\"}","synthetic":true}
+{"scenario_id":"PUB-016","raw":"{\"response_mode\":\"execute\",\"tools\":[\"workspace.task_create\"],\"message\":\"Created the task.\"}","synthetic":true}
+{"scenario_id":"PUB-017","raw":"{\"response_mode\":\"execute\",\"tools\":[\"workspace.document_find\"],\"message\":\"Found it.\"}","synthetic":true}
+{"scenario_id":"PUB-018","raw":"not-json","synthetic":true}
+

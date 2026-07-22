@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "If you use this artifact, please cite it using this metadata."
+title: "LLM Agent Benchmark: Sanitized scoring scaffold and corrected aggregate record"
+type: software
+authors:
+  - family-names: Ghiorse
+    given-names: Pete
+version: 1.0.0
+date-released: 2026-07-22
+license: Apache-2.0
+url: "https://peterghiorse.com/blog/llm-benchmark-stop-defaulting-to-the-frontier"
+keywords:
+  - llm evaluation
+  - agent routing
+  - structured output
+  - model selection
+abstract: "A sanitized companion to a 2,800-call production-shaped agent benchmark, with corrected aggregates and a new synthetic scorer fixture."
+

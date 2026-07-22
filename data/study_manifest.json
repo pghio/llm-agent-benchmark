@@ -1,0 +1,26 @@
+{
+  "artifact_version": "1.0.0",
+  "study_date": "2026-04-15",
+  "publication_snapshot": "bd7c06869b4cd9f1bb36efcb2111f35b1d267426",
+  "original_study": {
+    "model_count": 8,
+    "scenario_count": 35,
+    "category_count": 6,
+    "trials_per_scenario_model": 10,
+    "api_call_count": 2800,
+    "temperature": 0.2,
+    "shuffle_seed": 42,
+    "reported_cost_usd": 145.83
+  },
+  "public_fixture": {
+    "scenario_count": 18,
+    "category_count": 6,
+    "scenarios_per_category": 3,
+    "example_output_count": 18,
+    "contains_original_prompts": false,
+    "contains_original_schema": false,
+    "contains_raw_model_responses": false,
+    "contains_user_data": false
+  }
+}
+
