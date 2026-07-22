@@ -36,7 +36,7 @@ def read_jsonl(path: Path) -> list[dict]:
 
 def main() -> int:
     failures: list[str] = []
-    files = [path for path in ROOT.rglob("*") if path.is_file()]
+    files = [path for path in ROOT.rglob("*") if path.is_file() and ".git" not in path.parts]
     names = {path.relative_to(ROOT).as_posix() for path in files}
     failures.extend(f"missing required file: {name}" for name in sorted(REQUIRED - names))
 
