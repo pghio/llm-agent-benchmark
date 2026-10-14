@@ -4,6 +4,18 @@ A sanitized, publication-ready companion to Pete Ghiorse's April 2026 field test
 
 The original experiment used one production-shaped prompt and action schema. This repository does **not** publish that prompt, its tool catalog, original scenarios, mock production state, or raw provider responses. It publishes the corrected aggregate record and a new generic fixture that demonstrates the deterministic scoring method.
 
+## Headline result
+
+Eight models, 35 scenarios, ten trials each, one production-shaped prompt, 2,800 calls (April 15, 2026 snapshot, corrected June 24, 2026):
+
+- **Price and frontier status did not predict fit for this workload.** On clear commands, structured output, and multi-step actions, models from $0.15 to $15 per million tokens landed within 17 points of each other.
+- **Ambiguity was the wall.** No model exceeded 67 percent on genuinely ambiguous input at any price tier.
+- **Phantom actions were model-specific.** GPT-4o-mini created a calendar event from "I'm planning a trip next weekend" in 19 of 42 non-action trials (45 percent); most models correctly did nothing.
+- **Fenced JSON needed tolerant parsing.** The Claude identifiers tested wrapped 40 to 60 percent of JSON responses in code fences despite a json_object request; a ten-line stripper fixed it.
+- **Two conclusions were later retracted** (noisy-input robustness and duplicate handling) by the larger June restraint study; see `CORRECTIONS.md`.
+
+Full write-up with limitations: <https://peterghiorse.com/blog/llm-benchmark-stop-defaulting-to-the-frontier>. Cite with `CITATION.cff`.
+
 ## Locked original-study counts
 
 | Item | Count |
